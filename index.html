@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéMundo - Información de Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>🔴 PokéMundo</h1>
+        <p>Descubre información sobre tus Pokemon favoritos</p>
+      </header>
+
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Buscar Pokemon..."
+          class="search-input"
+        >
+      </div>
+
+      <main class="pokemon-grid" id="pokemonGrid">
+        <!-- Los Pokemon se cargarán aquí -->
+      </main>
+
+      <footer class="footer">
+        <p>© 2025 PokéMundo - Información no oficial de Pokemon</p>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
